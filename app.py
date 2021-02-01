@@ -3,7 +3,6 @@ import os
 from functools import wraps
 from flask import Flask, jsonify, redirect, render_template, request, url_for, session
 from urllib.parse import urlencode
-import psycopg2
 
 import auth0
 
