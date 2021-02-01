@@ -17,7 +17,7 @@ def require_auth(f):
     return decorated
 
 app = Flask(__name__)
-app.secret_key = os.urandom(16)
+app.secret_key = 'secret_key'
 
 @app.before_first_request
 def initialize():
