@@ -29,7 +29,7 @@ heroku local dev
 1. You can use `heroku logs --tail` to check the log for your Heroku application.
 2. You can go to Auth0 dashboard and select 'logs' in the left sidebar for Auth0 log.
 
-#### Some references that may help:
+#### Some materials that may help:
 
 https://auth0.com/docs/quickstart/webapp/python/01-login \
 https://auth0.com/docs/logout/redirect-users-after-logout \
@@ -38,3 +38,4 @@ https://stackoverflow.com/questions/61922045/mismatchingstateerror-mismatching-s
 
 [auth0-allowed-logout-urls]: https://auth0.com/docs/quickstart/webapp/python/01-login#configure-logout-urls
 
+Reference: https://github.com/umn-5117-f18/in-class-10-03
